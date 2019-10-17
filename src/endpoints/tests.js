@@ -81,6 +81,7 @@ module.exports = class {
       if (!this._config.accessToken) return reject('missing access token');
 
       const filters = [
+        'advancedSettings',
         'divisionId',
         'productId',
         'parentFolderId',
